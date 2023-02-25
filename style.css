@@ -1,0 +1,207 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(181, 99, 151),rgba(225, 163, 214, 0.9));
+    position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.logo a
+{
+    text-decoration: none;
+    color: rgb(22, 6, 1);
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+    padding-top: 6px;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(27, 8, 1);
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: rgb(30, 10, 2);
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.sub-page
+{
+    width: 1266px;
+    height: 550px;
+    position: absolute;
+    background: url(abc.png);
+    background-size: cover;
+    background-position: center;
+    left: 50px;
+    top: 70px;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(111, 74, 74, 0.5),white);
+    opacity: 0;
+    transition: 1s;
+}
+.sub-page:hover .overlay
+{
+    opacity: 1;
+}
+.text
+{
+    text-align: center;
+    color: rgb(19, 17, 17);
+    padding-right: 350px;
+    padding-left: 350px;
+    font-size: 20px;
+    font-family: 'sushma', cursive;
+    transform: translateY(-220%);
+    opacity: 0;
+    transition: 1s;
+}
+.sub-page:hover .text
+{
+    opacity: 1;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 90px;
+    left: 210px;
+    background: rgba(0,0,0,0.6);
+}
+.close 
+{
+    position: relative;
+    left: 270px;
+    bottom: 0;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus 
+{
+    color: rgb(32, 2, 2);
+    cursor: pointer;
+}
+.main-heading
+{
+    color: rgb(110, 102, 99);
+    padding-bottom: 20px;
+}
+.form
+{
+    position: relative;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    bottom: 20px;
+}
+.form input, .form1 input
+{
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(24, 2, 2);
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+.form button, .form1 button
+{
+    font-family: sans-serif;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    background: rgb(29, 7, 1);
+}
+.form .asking
+{
+    font-size: 12px;
+    margin: 15px 0 0;
+    color: white;
+}
+.form .asking a
+{
+    color: rgb(139, 127, 123);
+    text-decoration: none;
+}
+#register-form
+{
+    display: none;
+}
+.form-box1
+{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 90px;
+    left: 860px;
+    background: rgba(0,0,0,0.6);
+}
+.main-heading
+{
+    color: rgb(64, 60, 58);
+    padding-bottom: 20px;
+}
+.form1
+{
+    position: relative;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    bottom: 20px;
+}
+body {
+	background-image: url('bg-2.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
